@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './article.component.html',
-  styleUrl: './article.component.scss'
+  styleUrl: './article.component.scss',
 })
 export class ArticleComponent {
+  showOverlay: boolean = false;
 
+  toggleOverlay(): void {
+    this.showOverlay = !this.showOverlay;
+  }
 }
