@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+/article-preview-component-master
 
 # Node
 /node_modules
